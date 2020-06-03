@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>Do Quiz</title>
+</head>
+
+<body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+            <h2 class="text-primary display-3 my-4">DO Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+    <!-- d-none not appear -->
+    <div class = "result py-4 d-none bg-light text-center">
+        <div class = "container lead">
+            <p>You are <span class = "text-primary display-4 p-3">0%</span> score</p>
+        </div>
+    </div>
+
+    <!-- quiz section -->
+    <div class = "quiz py-4 bg-primary">
+        <div class = "container">
+            <h2 class = "my-5 text-white">On with the question...</h2>
+
+            <form class = "quiz-form text-light">
+                <div class = "my-5">
+                    <p class = "led font-weight-normal">1. What does the attribute maxlength do when added to a text input?</p>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q1" value = "A" checked>
+                        <label class = "form-check-label">Controls the physical length of the input element</label>
+                    </div>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q1" value = "B">
+                        <label class = "form-check-label">Controls the max number of characters a user can add to the input element</label>
+                    </div>
+                </div>
+                <div class = "my-5">
+                    <p class = "led font-weight-normal">2. Which of the following elements is used to define multiple media resources for video and audio?</p>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q2" value = "A" checked>
+                        <label class = "form-check-label">track</label>
+                    </div>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q2" value = "B">
+                        <label class = "form-check-label">source</label>
+                    </div>
+                </div>
+                <div class = "my-5">
+                    <p class = "led font-weight-normal">3. What are the two types of global storage available via HTML5 Data storage?</p>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q3" value = "A" checked>
+                        <label class = "form-check-label">sessionStorage and localStorage</label>
+                    </div>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q3" value = "B">
+                        <label class = "form-check-label">externalStorage and dataStorage</label>
+                    </div>
+                </div>
+                <div class = "my-5">
+                    <p class = "led font-weight-normal">4. Which would create a button that empties the form for the user to begin again?</p>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q4" value = "A" checked>
+                        <label class = "form-check-label">input type="reset"</label>
+                    </div>
+                    <div class = "form-check my-2 text-white-50">
+                        <input type="radio" name = "q4" value = "B">
+                        <label class = "form-check-label">input type="clear"</label>
+                    </div>
+                </div>
+                <div class = "text-ceter">
+                    <input type="submit" class = "btn btn-light">
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
